@@ -1,0 +1,140 @@
+@font-face {
+    font-family: myFirstFont;
+    src: url(https://fonts.googleapis.com/css2?family=Birthstone&display=swap);
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'poppins', 'raleway';
+}
+
+/* header */
+.navbar-brand {
+    font-size: 32px;
+}
+
+/* :active{
+    color :cornflowerblue !important;
+    font-weight:600 !important;
+} */
+.nav-link {
+    color: #fff !important;
+    font-weight: 500;
+}
+
+/* banner section */
+#hero {
+    background-image: linear-gradient(to bottom, #000000d6, #ffffff00),
+        url('../assets/images/bg1.png');
+    width: auto;
+    height: 100vh;
+
+}
+
+#hero .banner-content {
+    color: #fff;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.banner-content h1 {
+    font-size: 80px;
+}
+
+.banner-content p {
+    font-size: 28px;
+    text-align: center;
+}
+
+/* properties */
+.content h2 {
+    font-size: 45px;
+    font-weight: 500;
+    color: #000;
+}
+
+.content p {
+    font-size: 20px;
+    font-weight: 400;
+    color: #3A3A3A;
+}
+
+.p-card .card .card-link {
+    font-size: 18px;
+}
+
+.p-card .card .card-title {
+    font-size: 22px;
+}
+
+.p-card .card .card-date {
+    font-size: 20px;
+}
+
+/* blog */
+
+.blog-card .card {
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding: 20px 12px;
+    border-radius: 30px;
+}
+
+/* contact */
+.contact{
+    background-color: #f9f9f9;
+}
+.contact .card1 h1 {
+    font-size: 65px;
+    font-family: 500px;
+}
+
+.contact .card1 p {
+    font-size: 18px;
+    font-family: 400px;
+}
+
+.card1 i {
+    font-size: 22px;
+    color: #5099F5;
+}
+
+.card1 a {
+    color: rgb(0, 0, 0);
+    padding-left: 10px;
+    font-size: 18px;
+}
+.card1 a:hover {
+    color: #5099F5;
+    font-size: 19px;
+}
+
+.card2 h1 {
+    color: #5099F5;
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.card2 p {
+    color: #18191a;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* footer */
+.footer {
+    background-color: #000;
+}
+
+
+.videoCoverImage::after {
+    content: '\f144';
+    font-family: FontAwesome 5 icon;
+    font-weight: normal;
+    display: block;
+    position: absolute;
+    top: 50%;
+}
